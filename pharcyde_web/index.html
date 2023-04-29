@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet"  href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js"></script>   
+        <title>Pharcyde Menu</title>
+    </head>
+<body>
+    <main>
+        <div class="container-pharcyde-bg">
+            <img class="" src="Pharcyde.gif" alt="pharcydeLogoYoko" title="pharcydeロゴ">
+        </div>
+        <div class="container-pharcyde-logo scrollify">
+            <img class="container-pharcyde-logo-image-top" src="Pharcyde.png" alt="pharcydeLogoYoko" title="pharcydeロゴ">
+        </div>
+        <!-- 注意書きのページ開始 -->
+        <div class="container-detail scrollify">
+            <h2>
+                ※CAUTION※
+            </h2>
+            <p>
+                周辺地域の方々のご迷惑になるため、<br>
+                店舗前での喫煙・たむろ・大声での会話<br>
+                はご遠慮願いますよう、ご協力お願い致します。
+            </p>
+            <div class="container-logo-bottom">
+                <img class="container-pharcyde-logo-image" src="Pharcyde.png" alt="pharcydeLogoYoko" title="pharcydeロゴ">
+            </div>
+        </div>
+        <!-- 注意書きのページ終了 -->
+        <!-- 1ページ目開始 -->
+        <div class="container-detail scrollify">
+            <div>
+                <h2>
+                    SIGNATURE COCKTAIL
+                </h2>
+                <div class="container-menu-detail">
+                    <P>
+                        Pharcyde ¥1,000
+                    </P>
+                    <p>
+                        (whiskey, camomile, apple, maple syrup, ginger ale)
+                    </p>
+                </div>
+                <div class="container-menu-detail">
+                    <p>
+                        Royal ¥1,200
+                    </p>
+                    <p>
+                        (whisky, drambuie, elderflower, citrus, port wine)
+                    </p>
+                </div>
+                <div class="container-menu-detail">
+                    <p>
+                        O.R.B spritzer ¥1,000
+                    </p>
+                    <p>
+                        (chai, tiffin, sparkling wine)
+                    </p>
+                </div>
+            </div>
+            <div class="container-logo-bottom">
+                <img class="container-pharcyde-logo-image" src="Pharcyde.png" alt="pharcydeLogoYoko" title="pharcydeロゴ">
+            </div>
+        </div>
+        <!-- １ページ目終わり -->
+        <div class="container-detail scrollify">
+            <div>
+                <h2>
+                    FOODs
+                </h2>
+                <p id="text-padding-bottom">
+                    < 20:00~23:00 >
+                </p>
+                <div class="container-menu-detail">
+                    <P>
+                        Truffle Fries 800yen
+                    </P>
+                </div>
+                <div class="container-menu-detail">
+                    <p>
+                        Mince cutlet sandwich 800yen / per piece
+                    </p>
+                </div>
+                <div class="container-menu-detail">
+                    <p>
+                        Smoked Nanko plum 350yen / per piece
+                    </p>
+                </div>
+                <div class="container-menu-detail">
+                    <p>
+                        Fried Chicken with Japanese pepper 1000yen
+                    </p>
+                </div>
+                <div class="container-menu-detail">
+                    <p>
+                        Fresh Fish’s Carpaccio 1500yen
+                    </p>
+                </div>
+                <div class="container-menu-detail">
+                    <p>
+                        Burrata cheese with season’s fruits 1600yen
+                    </p>
+                </div>
+            </div>
+            <div class="container-logo-bottom">
+                <img class="container-pharcyde-logo-image" src="Pharcyde.png" alt="pharcydeLogoYoko" title="pharcydeロゴ">
+            </div>
+        </div>
+        
+        <!-- ２ページ目開始 -->
+        <div class="container-detail scrollify">
+            <div>
+                <h2>
+                    STANDARD COCKTAILS
+                </h2>
+                <div class="container-menu-detail">
+                    <P id="text-padding-bottom">
+                        We can make all standard cocktails for you
+                    </P>
+                    <p>
+                        ¥ask
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h2 id="text-padding-top">
+                    TODAY'S FRESH FRUIT COCKTAIL
+                </h2>
+                <div class="container-menu-detail">
+                    <p>
+                        Selected fresh fruit cocktail
+                    </p>
+                    <p id="text-padding-bottom">
+                        [pineapple, cherry, watermelon, strawberry, etc...]
+                    </p>
+                    <p>
+                        MIN ¥1,500〜
+                    </p>
+                </div>
+            </div>
+            <div class="container-logo-bottom">
+                <img class="container-pharcyde-logo-image" src="Pharcyde.png" alt="pharcydeLogoYoko" title="pharcydeロゴ">
+            </div>
+        </div>
+        <!-- ２ページ目終わり -->
+        <!-- ３ページ目開始 -->
+        <div class="container-detail scrollify">
+            <div class="container-menu-3p">
+                <!-- Standard Whisky -->
+                <h2>
+                    WHISKY
+                </h2>
+                <div class="container-menu-detail-3p"  id="text-padding-bottom">
+                    <div>
+                        <p>
+                            Jamson.   ¥700
+                        </p>
+                        <p>
+                            Canadian club.  ¥700
+                        </p>
+                        <p>
+                            Johnnie Black. ¥800
+                        </p>
+                        <p>
+                            Maker's mark. ¥800
+                        </p>
+                        <p>
+                            Wild turkey rye ¥900
+                        </p>
+                        <p>
+                            Gentleman Jack. ¥900
+                        </p>
+                        <p>
+                            Talisker 10y ¥1,100
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Glenfiddich 12y ¥1,100
+                        </p>
+                        <p>
+                            Ardbeg 10y. ¥1,100
+                        </p>
+                        <p>
+                            Glenmorangie ¥1,200
+                        </p>
+                        <p>
+                            Arran. ¥1,300
+                        </p>
+                        <p>
+                            Laphroaig 10y ¥1,300
+                        </p>
+                        <p>
+                            Oban 14y. ¥1,600
+                        </p>
+                    </div>
+                </div>
+                <p>
+                    Other. ¥ask
+                </p>
+                <!-- JapaneseWhisky -->
+                <h2 id="text-padding-top">
+                    JAPANESE WHISKY
+                </h2>
+                <div class="container-menu-detail-3p" id="text-padding-bottom">
+                    <div>
+                        <p>
+                            知多.   ¥1,000
+                        </p>
+                        <p>
+                            Ichiro's. ¥1,000
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            富士. ¥1,200
+                        </p>
+                        <p>
+                            宮城峡. ¥1,200
+                        </p>
+                        <p>
+                            富士山麓. ¥1,200
+                        </p>
+                    </div>
+                </div>
+                <p>
+                    Other. ¥ask
+                </p>
+            </div>
+            <div class="container-logo-bottom">
+                <img class="container-pharcyde-logo-image" src="Pharcyde.png" alt="pharcydeLogoYoko" title="pharcydeロゴ">
+            </div>
+        </div>
+        <!-- 3ページ目終わり -->
+        <!-- 4ページ目開始 -->
+        <div class="container-detail scrollify">
+            <div>
+                <h2>
+                    GIN
+                </h2>
+                <p>
+                    Gordon's. ¥700
+                </p>
+                <p>
+                    Tanqueray. ¥700
+                </p>
+                <p>
+                    No.3. ¥1,100
+                </p>
+                <p>
+                    Hendrick's. ¥1,100
+                </p>
+                <p>
+                    Sacred. ¥1,400
+                </p>
+                <p id="text-padding-bottom">
+                    Monkey 47. ¥1,600
+                </p>
+                <p>
+                    Other.  ¥ask
+                </p>
+            </div>
+            <div id="text-padding-top">
+                <h2>
+                    RUM
+                </h2>
+                <p>
+                    Bacardi. ¥700
+                </p>
+                <p>
+                    Myers Dark Rum. ¥700
+                </p>
+                <p>
+                    Havana Club 7. ¥700
+                </p>
+                <p>
+                    Diplomatico. ¥1,200
+                </p>
+                <p  id="text-padding-bottom">
+                    Ron Zacapa 23. ¥1,200
+                </p>
+                <p>
+                    Other ¥ask
+                </p>
+            </div>
+            <div id="text-padding-top">
+                <h2>
+                    VODKA
+                </h2>
+                <p>
+                    Stolichnaya. ¥700
+                </p>
+                <p>
+                    Ciroc. ¥1,000
+                </p>
+                <p>
+                    Belvedere. ¥1,000
+                </p>
+                <p>
+                    Grey goose. ¥1,000
+                </p>
+                <p  id="text-padding-bottom">
+                    Absolut vanila. ¥1,000
+                </p>
+                <p>
+                    Other.  ¥ask
+                </p>
+            </div>  
+            <div class="container-logo-bottom">
+                <img class="container-pharcyde-logo-image" src="Pharcyde.png" alt="pharcydeLogoYoko" title="pharcydeロゴ">
+            </div>
+        </div>
+        <!-- 4ページ目終わり -->
+        <!-- ５ページ目開始 -->
+        <div class="container-detail scrollify">
+            <div>
+                <h2>
+                    BRANDY
+                </h2>
+                <p>
+                    Courvoisier.  ¥1,000
+                </p>
+                <p>
+                    Boulard Calvados.  ¥1,100
+                </p>
+                <p>
+                    Remy V.S.O.P.   ¥1,200
+                </p>
+                <p id="text-padding-bottom">
+                    Paul Giraud.  ¥1,500
+                </p>
+                <p>
+                    Other.  ¥ask
+                </p>
+            </div>
+            <div id="text-padding-top">
+                <h2>
+                    TEQUILA/MEZCAL
+                </h2>
+                <p>
+                    Sauzer silver   ¥600
+                </p>
+                <p>
+                    1800 Anejo.  ¥1,500
+                </p>
+                <p>
+                    Patron Anejo.  ¥1,500
+                </p>
+                <p id="text-padding-bottom">
+                    Don Julio Anejo.  ¥1,500
+                </p>
+                <p>
+                    Other. ¥ask
+                </p>
+            </div>
+            <div id="text-padding-top">
+                <h2>
+                    LIQUOR
+                </h2>
+                <p>
+                    SUZE. ¥800  
+                </p>
+                <p>
+                    Maribu. ¥800
+                </p>
+                <p>
+                    Kahlua. ¥800
+                </p>
+                <p>
+                    Campari. ¥800
+                </p>
+                <p>
+                    Tiffin. ¥900
+                </p>
+                <p>
+                    Chartreuse＜Jaune＞. ¥1,100
+                </p>
+                <p>
+                    Chartreuse＜verte＞. ¥1,100 
+                </p>
+                <p id="text-padding-bottom">
+                    Pernod Absinthe. ¥1,200
+                </p>
+                <p>
+                    Other ¥ask
+                </p>
+            </div>
+            <div class="container-logo-bottom">
+                <img class="container-pharcyde-logo-image" src="Pharcyde.png" alt="pharcydeLogoYoko" title="pharcydeロゴ">
+            </div>
+        </div>
+        <!-- ５ページ目終わり -->
+        <!-- 6ページ目開始 -->
+        <div class="container-detail scrollify">
+            <div id="text-padding-bottom">
+                <h2>
+                    BEER
+                </h2>
+                <p id="menu-text">
+                    [HOUSE BEER]
+                </p>
+                <p>
+                    Heineken. ¥800
+                </p>
+            </div>
+            <div>
+                <p id="menu-text">
+                    [CRAFT BEER]
+                </p>
+                <p id="text-padding-bottom">
+                    Pank IPA. ¥1,000
+                </p>
+                <p>
+                    Other.  ¥ask
+                </p>
+            </div>
+            <div id="text-padding-top">
+                <h2>
+                    WINE
+                </h2>
+                <p id="menu-text">
+                    [GLASS]
+                </p>
+                <p>
+                    White. ¥700
+                </p>
+                <p>
+                    Red. ¥700
+                </p>
+                <p>
+                    Sparkling. ¥700
+                </p>
+                <br>
+                <p id="menu-text">
+                    [BOTTLE]
+                </p>
+                <p>
+                    White.
+                </p>
+                <p>
+                    Red.
+                </p>
+                <p id="text-padding-bottom">
+                    Orange
+                </p>
+                <p>
+                    Other.  ¥ask
+                </p>
+            </div>
+            <div id="text-padding-top">
+                <h2>
+                    SOFT DRINKS
+                </h2>
+                <p>
+                    ALL. ¥500
+                </p>
+                <p>
+                    [Apple, Orange, Grapefruit, Cola, Tonic, etc..]
+                </p>
+            </div>
+            <div class="container-logo-bottom">
+                <img class="container-pharcyde-logo-image" src="Pharcyde.png" alt="pharcydeLogoYoko" title="pharcydeロゴ">
+            </div>
+        </div>
+        <!-- ６ページ目終わり -->
+        <!-- ７ページ開始 -->
+        <div class="container-detail scrollify">
+            <div>
+                <h2>
+                    CHAMPAGNE
+                </h2>
+                <p>
+                    Veuve Clicquot Yellow ¥17,000
+                </p>
+                <p>
+                    Laurent-Perrier ¥ 35,000
+                </p>
+                <p>
+                    Veuve Clicquot Grande Dame ¥ 50,000
+                </p>
+                <p>
+                    Krug Grande Cuvee ¥ 70,000
+                </p>
+                <p>
+                    Louis Roederer Crystal ¥ 100,000
+                </p>
+                <p>
+                    Salon ¥ 280,000
+                </p>
+            </div>
+            <div class="container-logo-bottom">
+                <img class="container-pharcyde-logo-image" src="Pharcyde.png" alt="pharcydeLogoYoko" title="pharcydeロゴ">
+            </div>
+        </div>
+        <!-- ７ページ目終わり -->
+        <!-- ８ページ目開始 -->
+        <div class="container-detail scrollify">
+            <div>
+                <h2>
+                    HOUSE RULES
+                </h2>
+                <P>
+                    Open 19:00
+                </P>
+                <p>
+                    Last in 02:00
+                </p>
+                <p>
+                    (Maybe we'll take last order at 02:30)
+                </p>
+                <br>
+                <p>
+                    ＜SYSTEM＞
+                </p>
+                <p>
+                    Cover charge ¥500
+                </p>
+                <p>
+                    Room charge ¥1,000
+                </p>
+                <p>
+                    No Charge for Standing
+                </p>
+                <p>
+                    Break Charge ¥3,000
+                </p>
+                <br>
+                <p>
+                    ※All menu excluding tax
+                </p>
+            </div>
+            <div id="text-padding-top">
+                <h2>
+                    SPACE RENTAL
+                </h2>
+                <p>
+                    Please talk to staff.
+                </p>
+            </div>
+            <div class="container-logo-bottom">
+                <img class="container-pharcyde-logo-image" src="Pharcyde.png" alt="pharcydeLogoYoko" title="pharcydeロゴ">
+            </div>
+        </div>
+        <!-- ８ページ目終わり -->
+    </main>
+    <script charset="utf-8">
+        var current;
+        $.scrollify({
+            section:".scrollify",
+            updateHash: false,
+            easing: 'swing',
+            scrollSpeed: 600,
+            before:function(i,box){
+                current = i;
+            },
+        });
+        $(window).on('resize',function(){
+            if(current){
+                var currentScrl = $('.scrollify').eq(current).offset().top;
+                $(window).scrollTop(currentScrl);
+            }
+        });
+    </script>
+</body>
+</html>

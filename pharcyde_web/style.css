@@ -1,0 +1,151 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 40px;/* IE8以下とAndroid4.3以下用フォールバック */
+    font-size: calc(2.4rem + ((1vw - 0.64rem) * 2.1429));/* 24px~36pxで可変*/
+    color: white;
+}
+
+h2 {
+    font-size: 30px;/* IE8以下とAndroid4.3以下用フォールバック */
+    font-size: calc(2rem + ((1vw - 0.64rem) * 0.7143));/* 20px~24pxで可変*/
+    color: white;
+    font-family: "Helvetica Neue";
+    font-style: oblique;
+}
+
+h3, h4, h5, p, a, span {
+    font-size: 24px;
+    font-size: calc(2rem + ((1vw - 0.64rem) * 0.7143));/* 20px~24pxで可変*/
+    color: white;
+    font-family: "Times";
+    font-style: oblique;
+}
+
+img {
+    width: 100vw;
+    max-width: 100vw;
+}
+
+@media (min-width: 1200px) {/* 1200px以上*/
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2.2rem;
+    }
+    h3, h4, h5 {
+        font-size: 2rem;
+    }
+    p, a, span{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 640px) {/* 640px以下*/
+    h1 {
+        font-size: 2.4rem;/* 24px*/
+    }
+    h2 {
+        font-size: 1.8rem;/* 20px*/
+    }
+    h3, h4, h5 {
+        font-size: 1.6rem;
+    }
+    p, a, span {
+        font-size: 1.5rem;
+    }
+}
+/* 共通cssここまで */
+
+.container-pharcyde-bg {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+}
+.container-pharcyde-bg img {
+    height: 100vh;
+}
+.container-pharcyde-logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* 一番最初のロゴ */
+.container-pharcyde-logo-image-top {
+    width: 50vw;
+}
+
+/* scrollify.jsに関係する記述はここかから */
+.scrollify{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-pharcyde-logo-image{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 25vw;
+}
+
+.container-detail {
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-menu-detail {
+    padding-bottom: 1em;
+}
+
+.container-detail h2 {
+    padding-bottom: 0.7em;
+}
+
+.container-detail p {
+    font-size: calc(1.1rem + ((1vw - 0.64rem) * 0.7143));
+}
+
+.container-menu {
+    position: relative;
+}
+
+.container-logo-bottom {
+    position: absolute;
+	bottom: 2em;
+}
+/* 3ページ目 */
+.container-menu-3p {
+    line-height: 1.05em;
+}
+.container-menu-detail-3p {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-text {
+    font-size: calc(1.2rem + ((1vw - 0.64rem) * 0.7143));
+}
+
+#text-padding-bottom {
+    padding-bottom: 0.5em;
+}
+#text-padding-top {
+    padding-top: 2em;
+}
